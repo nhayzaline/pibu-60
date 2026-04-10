@@ -55,7 +55,7 @@
 <body>
     <div class="sidebar shadow-sm">
         <div class="d-flex align-items-center mb-5 px-4">
-            <img src="{{ asset('img/logo.png') }}" width="40" class="me-2">
+            <img src="{{ asset('images/LOGO_PIBU.png') }}" width="40" class="me-2">
             <div>
                 <h6 class="fw-bold mb-0">Pinjam Buku</h6>
                 <small class="text-muted" style="font-size: 10px;">Sistem Pinjam Buku Digital</small>

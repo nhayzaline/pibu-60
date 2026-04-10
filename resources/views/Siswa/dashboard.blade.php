@@ -32,7 +32,7 @@
 <nav class="navbar navbar-light navbar-custom py-3 px-4 mb-5">
     <div class="container-fluid d-flex justify-content-between align-items-center">
         <div class="d-flex align-items-center">
-            <img src="{{ asset('img/logo_pibu.png') }}" width="40" class="me-2">
+            <img src="{{ asset('images/LOGO_PIBU.png') }}" width="40" class="me-2">
             <div>
                 <span class="fw-bold d-block lh-1">Pinjam Buku</span>
                 <small class="text-muted">Sistem Pinjam Buku Digital</small>
@@ -48,7 +48,7 @@
 </nav>
 
 <div class="container text-center">
-    <h1 class="fw-bold mb-1">Selamat Datang, {{ $user->name }}!</h1>
+    <h1 class="fw-bold mb-1">Selamat Datang, {{ auth()->user()->name }}!</h1>
     <p class="text-dark mb-5">Apa yang mau kamu lakukan hari ini?</p>
 
     <div class="row g-4 mb-5">

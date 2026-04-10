@@ -32,7 +32,7 @@
 <div class="container d-flex justify-content-center">
     <div class="card login-card p-5">
         <div class="text-center mb-4">
-            <img src="{{ asset('img/logo.png') }}" width="60" class="mb-2">
+            <img src="{{ asset('images/LOGO_PIBU.png') }}" width="60" class="mb-2">
             <h3 class="fw-bold m-0">Pibu</h3>
             <p class="text-muted small">Pinjam buku, gak pakai kaku.</p>
         </div>

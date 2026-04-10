@@ -9,13 +9,12 @@ use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
-    // app/Models/User.php
 
-public function peminjamans()
-{
-    // Menghubungkan User ke tabel Peminjaman
-    return $this->hasMany(Peminjaman::class);
-}
+    public function peminjamans()
+    {
+        return $this->hasMany(Peminjaman::class);
+    }
+
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory, Notifiable;
 
